@@ -1,0 +1,39 @@
+
+
+.container{
+    width: 25rem;
+    margin:5rem auto;
+}
+
+
+
+
+.image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-image: url(hero-image-business-card.png);
+}
+.image>svg{
+    width: 100%;
+    margin-top: 22rem;
+}
+
+.cart{
+    display: flex;
+  gap: 30px;
+    align-items: center;
+}
+.cart-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+p,small{
+   color:#677489;
+}
+.cart h4, small{
+    margin: 0;
+}
